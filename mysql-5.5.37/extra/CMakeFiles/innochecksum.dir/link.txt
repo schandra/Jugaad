@@ -1,0 +1,1 @@
+/usr/bin/gcc   -Wall -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX    CMakeFiles/innochecksum.dir/innochecksum.c.o  -o innochecksum  -lpthread 

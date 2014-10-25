@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -Wall -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX   -shared -Wl,-soname,qa_auth_server.so -o qa_auth_server.so CMakeFiles/qa_auth_server.dir/qa_auth_server.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

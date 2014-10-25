@@ -1,0 +1,20 @@
+mysql -u root -p
+create user 'tpch'@'localhost' identified by 'zxcvbnm';
+grant all on tpch.* to 'tpch'@'localhost';
+flush privileges;
+
+use tpch;
+\. benchmarks/tpch/dbgen/dss.ddl
+
+cd benchmarks/tpch/dbgen
+make
+./dbgen -s 1 (Just to test out)
+
+once done
+mysql -u root -p
+use tpch;
+
+From dbgen directory
+source alltable.load;
+
+

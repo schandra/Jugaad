@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -Wall -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX   -shared -Wl,-soname,mypluglib.so -o mypluglib.so CMakeFiles/ftexample.dir/plugin_example.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

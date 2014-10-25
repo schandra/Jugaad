@@ -1,0 +1,1 @@
+/usr/bin/gcc   -Wall -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX    CMakeFiles/resolveip.dir/resolveip.c.o  -o resolveip  -lpthread ../mysys/libmysys.a ../dbug/libdbug.a ../mysys/libmysys.a ../dbug/libdbug.a ../strings/libstrings.a ../zlib/libzlib.a -lm -lrt -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -Wall -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX   -shared -Wl,-soname,auth.so -o auth.so CMakeFiles/auth.dir/dialog.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

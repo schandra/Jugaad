@@ -1,0 +1,9 @@
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/customer.tbl' INTO TABLE customer FIELDS TERMINATED BY '|';
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/region.tbl' INTO TABLE region FIELDS TERMINATED BY '|';
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/nation.tbl' INTO TABLE nation FIELDS TERMINATED BY '|';
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/supplier.tbl' INTO TABLE supplier FIELDS TERMINATED BY '|';
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/part.tbl' INTO TABLE part FIELDS TERMINATED BY '|';
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/partsupp.tbl' INTO TABLE partsupp FIELDS TERMINATED BY '|';
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/orders.tbl' INTO TABLE orders FIELDS TERMINATED BY '|';
+load data INFILE '/home/schandra/Jugaad/benchmarks/tpch/dbgen/lineitem.tbl' INTO TABLE lineitem FIELDS TERMINATED BY '|';
+

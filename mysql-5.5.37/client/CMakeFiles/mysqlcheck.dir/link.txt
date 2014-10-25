@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX    CMakeFiles/mysqlcheck.dir/mysqlcheck.c.o  -o mysqlcheck  -lpthread ../libmysql/libmysqlclient.a -lpthread -lm -lrt -ldl 

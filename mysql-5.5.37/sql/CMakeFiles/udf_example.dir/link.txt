@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -Wall -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX   -shared -Wl,-soname,udf_example.so -o udf_example.so CMakeFiles/udf_example.dir/udf_example.c.o -lpthread -lrt 

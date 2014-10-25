@@ -1,0 +1,1 @@
+cd /home/schandra/Jugaad/mysql-5.5.37 && '/usr/bin/cpack' -G TGZ --config CPackConfig.cmake

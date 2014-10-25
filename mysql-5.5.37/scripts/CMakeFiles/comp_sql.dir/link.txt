@@ -1,0 +1,1 @@
+/usr/bin/gcc   -Wall -g -DENABLED_DEBUG_SYNC -DSAFE_MUTEX    CMakeFiles/comp_sql.dir/comp_sql.c.o  -o comp_sql  -lpthread 
